@@ -1,0 +1,3 @@
+type AuthResponseBody = {
+  token: string
+}
