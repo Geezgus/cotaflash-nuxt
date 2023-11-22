@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.9.5",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "nuxt": "^3.8.0",
@@ -21,8 +22,5 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
   }
 }
